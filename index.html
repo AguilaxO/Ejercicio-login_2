@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Programando Ando</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <section class="container" id="login">
+            <article class="login">
+                <form class="login__form" action="">
+                    <div class="logo_usuario">
+                        <img src="/imagenes/usuario.png" alt="">
+                    </div>
+                    <div class="conjuntoInput">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="email" name="email" id="email" required placeholder="Usuario">
+                    </div>
+                    <div class="conjuntoInput">   
+                        <i class="fa-solid fa-lock"></i>                     
+                        <input type="password" id="contraseña" name="contraseña" required placeholder="Contraseña">
+                        <i id="mostrarContraseña" class="fa-solid fa-eye-slash"></i>
+                        <i></i>
+                    </div>
+                    
+                    <div class="contenedorBoton">
+                        <input class="botonEnviar" type="submit" value="Enviar " >
+                    </div>
+
+                    <a class="vinculos vinculo-arriba" href="#">¿Olvidó su contraseña?</a>
+                    
+                    <a class="vinculos" href="#">¿Aún no está registrado?</a>
+                    
+                </form>
+                
+            </article>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="/javas.js"></script>
+</body>
+</html>
