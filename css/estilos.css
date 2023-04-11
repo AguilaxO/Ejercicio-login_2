@@ -46,7 +46,7 @@ img {
 .logo_usuario {
     width: 120px;
     border-radius: 50%;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .login .conjuntoInput {
@@ -103,7 +103,7 @@ img {
 
 
 .login .login__form .vinculo-arriba {
-    margin-bottom: 35px;
+    margin-bottom: 40px;
 }
 
 .login .login__form .vinculos {
@@ -118,7 +118,7 @@ img {
 .login .login__form .contenedorBoton {
     padding: 0 19px;
     width: 100%;
-    margin: 10px 0 25px;
+    margin: 10px 0 30px;
 }
 
 .login .login__form .botonEnviar {
